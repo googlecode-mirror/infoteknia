@@ -1,0 +1,22 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Oferta
+    theme:            default
+
+    list:
+      display:  [=titulo, descripcion]
+      title:    Ofertas actuales
+      object_actions:
+        _edit:     -
+        _delete:   -
+
+    edit:
+      title:    Editando: %%titulo%%
+
+    fields:
+      precio: { params:  size=15, help: no incluir el signo $ }
+      descripcion: { params: size=60x8 }
+      imagen:
+        type:       admin_input_file_tag
+        help:       Las imagenes tienen que ser de 100x100 px
