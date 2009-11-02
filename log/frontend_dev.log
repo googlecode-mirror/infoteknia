@@ -1,0 +1,179 @@
+Apr 06 03:27:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'contenido',  'action' => 'index',)
+Apr 06 03:27:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:00 symfony [info] {contenidoActions} Call "contenidoActions->executeIndex()"
+Apr 06 03:27:00 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/indexSuccess.php"
+Apr 06 03:27:00 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:00 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:00 symfony [info] {sfWebDebugLogger} Configuration 268.94 ms (10)
+Apr 06 03:27:00 symfony [info] {sfWebDebugLogger} Action "contenido/index" 0.39 ms (1)
+Apr 06 03:27:00 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/index" 122.45 ms (1)
+Apr 06 03:27:00 symfony [info] {sfWebResponse} Send content (29585 o)
+Apr 06 03:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contenido/contacto with parameters array (  'module' => 'contenido',  'action' => 'contacto',)
+Apr 06 03:27:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:06 symfony [info] {contenidoActions} Call "contenidoActions->executeContacto()"
+Apr 06 03:27:06 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/contactoSuccess.php"
+Apr 06 03:27:06 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:06 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:06 symfony [info] {sfWebDebugLogger} Configuration 130.19 ms (9)
+Apr 06 03:27:06 symfony [info] {sfWebDebugLogger} Action "contenido/contacto" 0.37 ms (1)
+Apr 06 03:27:06 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/contacto" 101.95 ms (1)
+Apr 06 03:27:07 symfony [info] {sfWebResponse} Send content (28714 o)
+Apr 06 03:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contenido/seguridadycontrol with parameters array (  'module' => 'contenido',  'action' => 'seguridadycontrol',)
+Apr 06 03:27:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:09 symfony [info] {contenidoActions} Call "contenidoActions->executeSeguridadycontrol()"
+Apr 06 03:27:09 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 06 03:27:09 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:09 symfony [debug] {sfPropelLogger} prepare: SELECT info.ID, info.PRINCIPAL, info.SECUNDARIO, info.ARCHIVO FROM `info` WHERE info.ID=:p1
+Apr 06 03:27:09 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:09 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 06 03:27:09 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:09 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/seguridadycontrolSuccess.php"
+Apr 06 03:27:09 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:09 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:09 symfony [info] {sfWebDebugLogger} Configuration 133.10 ms (9)
+Apr 06 03:27:09 symfony [info] {sfWebDebugLogger} Action "contenido/seguridadycontrol" 101.01 ms (1)
+Apr 06 03:27:09 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/seguridadycontrol" 120.36 ms (1)
+Apr 06 03:27:09 symfony [info] {sfWebResponse} Send content (31317 o)
+Apr 06 03:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contenido/tecnologia with parameters array (  'module' => 'contenido',  'action' => 'tecnologia',)
+Apr 06 03:27:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:11 symfony [info] {contenidoActions} Call "contenidoActions->executeTecnologia()"
+Apr 06 03:27:11 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 06 03:27:11 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:11 symfony [debug] {sfPropelLogger} prepare: SELECT oferta.ID, oferta.TITULO, oferta.DESCRIPCION, oferta.PRECIO, oferta.IMAGEN FROM `oferta`
+Apr 06 03:27:11 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:11 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/tecnologiaSuccess.php"
+Apr 06 03:27:11 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:11 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:11 symfony [info] {sfWebDebugLogger} Configuration 140.13 ms (9)
+Apr 06 03:27:11 symfony [info] {sfWebDebugLogger} Action "contenido/tecnologia" 52.70 ms (1)
+Apr 06 03:27:11 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/tecnologia" 105.28 ms (1)
+Apr 06 03:27:11 symfony [info] {sfWebResponse} Send content (30189 o)
+Apr 06 03:27:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contenido/controldeacceso with parameters array (  'module' => 'contenido',  'action' => 'controldeacceso',)
+Apr 06 03:27:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:13 symfony [info] {contenidoActions} Call "contenidoActions->executeControldeacceso()"
+Apr 06 03:27:13 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 06 03:27:13 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:13 symfony [debug] {sfPropelLogger} prepare: SELECT info.ID, info.PRINCIPAL, info.SECUNDARIO, info.ARCHIVO FROM `info` WHERE info.ID=:p1
+Apr 06 03:27:13 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:13 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 06 03:27:13 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:13 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/controldeaccesoSuccess.php"
+Apr 06 03:27:13 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:13 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:13 symfony [info] {sfWebDebugLogger} Configuration 135.26 ms (9)
+Apr 06 03:27:13 symfony [info] {sfWebDebugLogger} Action "contenido/controldeacceso" 101.71 ms (1)
+Apr 06 03:27:13 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/controldeacceso" 126.88 ms (1)
+Apr 06 03:27:13 symfony [info] {sfWebResponse} Send content (31402 o)
+Apr 06 03:27:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contenido/controldeacceso with parameters array (  'module' => 'contenido',  'action' => 'controldeacceso',)
+Apr 06 03:27:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:39 symfony [info] {contenidoActions} Call "contenidoActions->executeControldeacceso()"
+Apr 06 03:27:39 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 06 03:27:39 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:39 symfony [debug] {sfPropelLogger} prepare: SELECT info.ID, info.PRINCIPAL, info.SECUNDARIO, info.ARCHIVO FROM `info` WHERE info.ID=:p1
+Apr 06 03:27:39 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:39 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 06 03:27:39 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:39 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/controldeaccesoSuccess.php"
+Apr 06 03:27:39 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:39 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:39 symfony [info] {sfWebDebugLogger} Configuration 509.00 ms (9)
+Apr 06 03:27:39 symfony [info] {sfWebDebugLogger} Action "contenido/controldeacceso" 32.68 ms (1)
+Apr 06 03:27:39 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/controldeacceso" 68.00 ms (1)
+Apr 06 03:27:39 symfony [info] {sfWebResponse} Send content (31431 o)
+Apr 06 03:27:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'contenido',  'action' => 'index',)
+Apr 06 03:27:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:42 symfony [info] {contenidoActions} Call "contenidoActions->executeIndex()"
+Apr 06 03:27:42 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/indexSuccess.php"
+Apr 06 03:27:42 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:42 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:42 symfony [info] {sfWebDebugLogger} Configuration 143.65 ms (9)
+Apr 06 03:27:42 symfony [info] {sfWebDebugLogger} Action "contenido/index" 0.39 ms (1)
+Apr 06 03:27:42 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/index" 120.31 ms (1)
+Apr 06 03:27:42 symfony [info] {sfWebResponse} Send content (29577 o)
+Apr 06 03:27:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 03:27:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 03:27:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 03:27:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /contenido/tecnologia with parameters array (  'module' => 'contenido',  'action' => 'tecnologia',)
+Apr 06 03:27:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 03:27:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 03:27:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 03:27:47 symfony [info] {contenidoActions} Call "contenidoActions->executeTecnologia()"
+Apr 06 03:27:47 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 06 03:27:47 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:47 symfony [debug] {sfPropelLogger} prepare: SELECT oferta.ID, oferta.TITULO, oferta.DESCRIPCION, oferta.PRECIO, oferta.IMAGEN FROM `oferta`
+Apr 06 03:27:47 symfony [debug] {sfPropelLogger} 7
+Apr 06 03:27:47 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/tecnologiaSuccess.php"
+Apr 06 03:27:47 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:47 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 03:27:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 03:27:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 03:27:47 symfony [info] {sfWebDebugLogger} Configuration 135.07 ms (9)
+Apr 06 03:27:47 symfony [info] {sfWebDebugLogger} Action "contenido/tecnologia" 52.45 ms (1)
+Apr 06 03:27:47 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/tecnologia" 117.63 ms (1)
+Apr 06 03:27:47 symfony [info] {sfWebResponse} Send content (30162 o)
+Apr 06 04:14:32 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 06 04:14:32 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 06 04:14:32 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 06 04:14:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'contenido',  'action' => 'index',)
+Apr 06 04:14:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 06 04:14:32 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 06 04:14:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 06 04:14:32 symfony [info] {contenidoActions} Call "contenidoActions->executeIndex()"
+Apr 06 04:14:32 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/modules/contenido/templates/indexSuccess.php"
+Apr 06 04:14:32 symfony [info] {sfPHPView} Decorate content with "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 04:14:32 symfony [info] {sfPHPView} Render "/home/matias/Proyectos/Infoteknia.com.ar/sitio/apps/frontend/templates/layout.php"
+Apr 06 04:14:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 06 04:14:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 06 04:14:32 symfony [info] {sfWebDebugLogger} Configuration 422.47 ms (9)
+Apr 06 04:14:32 symfony [info] {sfWebDebugLogger} Action "contenido/index" 0.16 ms (1)
+Apr 06 04:14:32 symfony [info] {sfWebDebugLogger} View "Success" for "contenido/index" 46.38 ms (1)
+Apr 06 04:14:32 symfony [info] {sfWebResponse} Send content (29429 o)

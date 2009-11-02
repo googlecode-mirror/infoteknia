@@ -1,0 +1,15 @@
+propel:
+  categoria:
+  oferta:
+    _attributes: { phpname: Oferta}
+    id:
+    titulo:      varchar(255)
+    descripcion: longvarchar
+    precio:      varchar(255)
+    imagen:      varchar(255)
+  info:
+    _attributes: { phpname: Info}
+    id:
+    principal:   longvarchar
+    secundario:  longvarchar
+    archivo:     varchar(255)
